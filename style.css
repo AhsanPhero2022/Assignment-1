@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Header section style */
+.header {
+  width: 100%;
+  height: 80vh;
+  background-image: url("images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-title {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.header-description {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.contact-btn {
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #005fac;
+  padding: 12px 16px;
+  border-radius: 5px;
+  border: none;
+}
+.header-container {
+  text-align: right;
+  padding: 216px 230px 360px 730px;
+}
+/* Main section style */
+
+.failure-section {
+  max-width: 1070px;
+  height: 720px;
+  margin: 131px;
+ margin: 100px;
+ margin-right: 10%;
+}
+.failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.failure-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin: 8px;
+}
+.fa-solid{
+  color: green;
+}
+article{
+  margin: 8px;
+}
+
+/* Plan section style */
+
+.plan-title{
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin: 50px;
+}
+
+.plan-container{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+}
+.plan-sub-title{
+  margin: 5px;
+}
+.plan-description{
+  color: #737272;
+}
+/* Hobby section style */
+.hobby-section {
+  margin: 50px 180px;
+  background-color: antiquewhite;
+
+}
+
+.hobby-title {
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px 0 0 0;
+  margin-bottom: 30px;
+
+}
+
+.hobby-container {
+  padding: 20px 50px;
+  margin-top: -25px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 30px;
+}
+
+.hobby-description {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+
+}
+/* gradian section tyle */
+.gradient-section {
+  margin: 50px 180px;
+  height: 300px;
+  background-image: url('images/watch.png');
+  background-size: cover;
+}
+
+.gradient-container {
+  background-image: linear-gradient(to left, rgba(90, 70, 180, 0), rgba(129, 238, 242, 0.7));
+  height: 300px;
+}
+
+.gradient-title {
+  padding: 50px;
+  text-align: left;
+  align-items: center;
+}
+
+.gradient-sub-title {
+  font-weight: 700;
+  font-size: 36px;
+  padding-right: 50%;
+}
+.gradient-button{
+  margin-top: 25px;
+  background-color:aquamarine;
+  color: green;
+}
+
+/* footer style  */
+footer {
+  width: 100%;
+  height: 100vh;
+  background: #151414;
+}
+
+.footer-title {
+  color: white;
+}
+
+.footer-description {
+  color: white;
+}
+
+.footer-email {
+  color: white;
+}
+
+.footer-phone {
+  color: white;
+}
+
+.footer-conatiner {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+.footer-description{
+  font-weight: 400;
+  font-size: 16px;
+}
+.sub-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+}
+.footer-item1 {
+  margin-left: 8%;
+  margin-top: 14%;
+  gap: 10px;
+  padding: 45px;
+  
+}
+.footer-email{
+  margin: 15px 0;
+}
+.footer-phone{
+  margin: 15px 0;
+}
+
+input {
+  width: 325px;
+  height: 30px;
+  padding: 12px 16px;
+  border-radius: 5px;
+  background-color: #151414;
+  border: 1px solid gainsboro;
+  margin-top: 25px;
+}
+
+
+
+.footer-item2 {
+  margin-right: 10%;
+  margin-top: 15%;
+  padding: 40px;
+  
+}
+.footer-item1> img{
+  padding: 8px 12px;
+}
+.gradient-button{
+  margin-top: 25px;
+}
