@@ -48,6 +48,9 @@
   align-items: center;
   gap: 2rem;
 }
+.failure-container> img{
+  background-color: bisque;
+}
 .failure-title {
   font-weight: 700;
   font-size: 40px;
